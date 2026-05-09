@@ -1,0 +1,20 @@
+# Build outputs
+build/
+app/build/
+*.apk
+*.aab
+
+# Gradle caches
+.gradle/
+/grade
+gradle/caches/
+gradle/wrapper/dists/
+
+# Android Studio
+.idea/
+*.iml
+local.properties
+captures/
+
+# Kotlin
+*.kotlin_module

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.expensetracker.ui.home.HomeFragment"
+        android:label="Home"/>
+
+    <fragment
+        android:id="@+id/walletFragment"
+        android:name="com.expensetracker.ui.wallet.WalletFragment"
+        android:label="Wallets">
+        <action
+            android:id="@+id/action_wallet_to_detail"
+            app:destination="@id/walletDetailFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/walletDetailFragment"
+        android:name="com.expensetracker.ui.wallet.WalletDetailFragment"
+        android:label="Wallet Detail"/>
+
+    <!-- ADD THESE — must match your bottom_nav_menu.xml IDs exactly -->
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.expensetracker.ui.statistics.StatisticsFragment"
+        android:label="Statistics"/>
+
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.expensetracker.ui.calendar.CalendarFragment"
+        android:label="Calendar"/>
+
+</navigation>

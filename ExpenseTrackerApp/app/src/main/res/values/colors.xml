@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="primary">#6C63FF</color>
+    <color name="primary_dark">#4B44CC</color>
+    <color name="primary_light">#9D97FF</color>
+    <color name="accent">#FF6584</color>
+
+    <!-- Background -->
+    <color name="bg_dark">#0F0F1A</color>
+    <color name="bg_surface">#1A1A2E</color>
+    <color name="bg_card">#16213E</color>
+    <color name="bg_elevated">#1F2041</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B3C1</color>
+    <color name="text_hint">#686A7A</color>
+
+    <!-- Status -->
+    <color name="expense_red">#FF4757</color>
+    <color name="expense_orange">#FFA502</color>
+    <color name="income_green">#2ED573</color>
+    <color name="accent_green">#43E97B</color>
+
+    <!-- Misc -->
+    <color name="chip_background">#252540</color>
+    <color name="divider">#252535</color>
+    <color name="error">#CF6679</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>
